@@ -15,6 +15,19 @@ body {
     font-size: 100%;
     background: rgb(96,98,65);
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+body::-webkit-scrollbar{
+    width: 12px;
+    border: none;
+}
+body::-webkit-scrollbar-track {
+    background: none; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: 	#B8860B;  
+    border-radius: 20px; 
 }
 .cabecalho {
     display: flex;
